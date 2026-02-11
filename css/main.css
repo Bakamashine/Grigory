@@ -57,8 +57,13 @@
   align-items: center;
 }
 
+.header__logo {
+  cursor: pointer;
+}
+
 .header__name {
   color: white;
+  cursor: pointer;
   font-size: 32px;
   margin-left: 24px;
 }
@@ -172,6 +177,7 @@
 
 .command__item__image {
   display: block;
+  cursor: pointer;
   /* width: 100%;
     height: auto; */
 }
@@ -234,6 +240,7 @@
 .blocks {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 22px;
 }
 
@@ -303,4 +310,24 @@
 
 .slider__nav__item:hover {
   background-color: brown;
+}
+
+.person-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+
+.person-detail__image {
+  width: 516px;
+  height: 688px;
+}
+
+.person-detail__info {
+  width: 770px;
+}
+
+.about_us_page__text {
+  width: 300px;
 }
