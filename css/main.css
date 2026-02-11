@@ -85,6 +85,14 @@
   margin-right: 22px;
 }
 
+.header__nav__button:hover {
+  color: black;
+}
+
+.header__nav__button-full:hover {
+  background-color: rgb(221, 221, 221);
+}
+
 .header__nav__button-full {
   display: block;
   background-color: white;
@@ -330,4 +338,36 @@
 
 .about_us_page__text {
   width: 300px;
+}
+
+table {
+  border-radius: 1px;
+}
+th {
+  padding: 10px;
+}
+td {
+  text-align: center;
+  padding: 5px;
+}
+thead {
+  border-bottom: 2px solid rgb(160 160 160);
+  text-align: center;
+  background-color: var(--content-background);
+  color: white;
+}
+
+tbody {
+  background-color: #e4f0f5;
+}
+
+/* tbody td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.schedule {
+  display: flex;
+  justify-content: center;
 }
