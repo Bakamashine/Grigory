@@ -83,6 +83,7 @@
   cursor: pointer;
   font-size: 16px;
   margin-right: 22px;
+  user-select: none;
 }
 
 .header__nav__button:hover {
@@ -96,6 +97,7 @@
 .header__nav__button-full {
   display: block;
   background-color: white;
+  user-select: none;
   border-radius: 10px;
   color: black;
   text-decoration: none;
@@ -353,6 +355,7 @@ td {
 thead {
   border-bottom: 2px solid rgb(160 160 160);
   text-align: center;
+  user-select: none;
   background-color: var(--content-background);
   color: white;
 }
